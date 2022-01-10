@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- sắp xếp số theo thứ tự tăng dần -->
+    <div class="w-50 my-5">
+        <h2>Hãy nhập ba số nguyên khác nhau :</h2>
+        <form>
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="so1" placeholder="Nhập số thứ 1">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="so2" placeholder="Nhập số thứ 2">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="so3" placeholder="Nhập số thứ 3">
+            </div>
+
+            <button type="button" onclick="sapXep()" class="btn btn-success">Sắp xếp số theo thứ tự tăng dần</button>
+        </form>
+
+          <p id="txtDTangDan" class="alert alert-success"></p>
+    </div>
+
+    <!-- chào hỏi trong gia đình -->
+    <div class="w-50 my-5">
+        <h2>nhập tên người đang sử dụng máy</h2>
+        <form>
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="text" class="form-control" id="tenNguoisd" placeholder="nhập tên người đang sử dụng máy">
+            </div>
+
+            <button type="button" onclick="chaoHoi()" class="btn btn-success">click</button>
+        </form>
+
+          <p id="txtChaoHoi" class="alert alert-success"></p>
+    </div>
+
+
+    <!-- có bao nhiêu số chẵn và bao nhiêu số lẻ -->
+    <div class="w-50 my-5">
+        <h2>Hãy nhập ba số nguyên :</h2>
+        <form>
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="num1" placeholder="Nhập số thứ 1">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="num2" placeholder="Nhập số thứ 2">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="num3" placeholder="Nhập số thứ 3">
+            </div>
+
+            <button type="button" onclick= "chanLe()" class="btn btn-success">Sắp xếp số theo thứ tự tăng dần</button>
+        </form>
+
+          <p id="txtChanLe" class="alert alert-success"></p>
+          <p id="txtLeChan" class="alert alert-success"></p>
+
+    </div>
+
+    <!--xác định là tam giác gì-->
+    <div class="w-50 my-5">
+        <h2>Hãy nhập 3 cạnh của tam giác : </h2>
+        <form>
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="canhA" placeholder="Nhập cạnh a">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="canhB" placeholder="Nhập cạnh b">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 10px;">
+                <input type="number" class="form-control" id="canhC" placeholder="Nhập cạnh c">
+            </div>
+
+            <button type="button" onclick="tamGiac()" class="btn btn-success">Sắp xếp số theo thứ tự tăng dần</button>
+        </form>
+
+          <p id="txtDTamGiac" class="alert alert-success"></p>
+    </div>
+    <script src="./js/bai1.js"></script>
+    <script src="./js/bai2.js"></script>
+    <script src="./js/bai3.js"></script>
+    <script src="./js/bai4.js"></script>
+</body>
+</html>
